@@ -29,9 +29,19 @@ img {
     width: 100%;
 }
 
+.footer__container{
+    padding-top: 90px;
+    
+
+}
+.footer__form-container{
+    padding-bottom: 90px;
+}
+
 .footer__container, footer__maps{
     padding-left: 15px;
     padding-right: 15px;
+    line-height: 1.7;
 
 }
 
@@ -39,6 +49,9 @@ img {
     display: flex;
     flex-direction: column;
     color: var(--title-color);
+    text-align: left;
+    position: relative;
+   
 
 }
 
@@ -126,6 +139,8 @@ img {
     display: flex;
     flex-direction: column;
     padding: 5px;
+    line-height: 1.7;
+    
 
 }
 
@@ -134,6 +149,7 @@ img {
     color: var(--title-color);
     text-decoration: none;
     font-family: var(--font-for-p);
+    font-weight: 500;
 }
 
 .footer__rights{
