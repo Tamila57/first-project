@@ -144,7 +144,7 @@ footer__maps {
   display: flex;
   flex-direction: column;
   padding: 5px;
-  line-height: 1.7;
+  line-height: 2;
 }
 
 .header__menu-link {
@@ -152,11 +152,14 @@ footer__maps {
   color: var(--title-color);
   text-decoration: none;
   font-family: var(--font-for-p);
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .footer__rights {
   color: var(--text-color);
   font-size: 14px;
   font-family: var(--font-for-h);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
