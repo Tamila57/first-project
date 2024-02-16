@@ -158,14 +158,13 @@ footer__maps {
 
 .footer__navigation {
   text-align: center;
-  background-color: var(--bottom-background);
   padding-top: 30px;
 }
 
 .header__logo {
   justify-content: center;
   height: 63.275px;
-  background-color: var(--bottom-background);
+ 
 }
 
 .header__menu {
@@ -173,7 +172,7 @@ footer__maps {
   flex-direction: column;
   padding: 5px;
   line-height: 2;
-  background-color: var(--bottom-background);
+ 
   
 }
 
@@ -183,7 +182,7 @@ footer__maps {
   text-decoration: none;
   font-family: var(--font-for-p);
   font-weight: 700;
-  background-color: var(--bottom-background);
+ 
 }
 
 .header__menu-link:hover {
@@ -201,10 +200,6 @@ footer__maps {
   display: flex;
   flex-direction: column;
   text-align: center;
-}
-
-.rights__author, .rights__reserved{
-  background-color: var(--bottom-background);
 }
 
 @media (min-width: 745px) {
