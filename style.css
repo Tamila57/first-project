@@ -213,6 +213,7 @@ footer__maps {
     justify-content: flex-end;
     align-items: center;
     flex: 1;
+    gap: 15px;
   }
 
   .footer__rights {
