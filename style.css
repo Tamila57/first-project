@@ -160,8 +160,8 @@ footer__maps {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .header__logo {
@@ -192,8 +192,8 @@ footer__maps {
 .bottom-line{
   height: 1px;
   border-color: gray;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .footer__rights {
@@ -202,8 +202,8 @@ footer__maps {
   font-family: var(--font-for-h);
   display: flex;
   flex-direction: column;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 40px;
+  padding-right: 40px;
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
@@ -224,9 +224,9 @@ footer__maps {
     gap: 15px;
   }
 
-  .footer__rights p{
-    display: inline-flex;
-    
+  .footer__rights{
+    display: flex;
+    flex-direction: row;
   }
 
   .rights__author {
