@@ -239,4 +239,8 @@ footer__maps {
     text-align: right;
     width: 20%;
   }
+
+ .footer__form-container{
+  width: 50%;
+ }
 }
