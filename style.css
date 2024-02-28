@@ -30,8 +30,8 @@ img {
 }
 
 .footer__container {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding-left: 24px;
   padding-right: 24px;
 }
@@ -122,6 +122,10 @@ img {
 }
 
 .footer__form-container {
+  position: relative;
+  background-color: rgb(52, 41, 36);
+  padding-top: 45px;
+  padding-bottom: 90px;
 }
 
 .client-form {
@@ -247,21 +251,15 @@ img {
     gap: 15px;
   }
 
-  .maps__position {
+  .map-and-form{
     display: flex;
-    z-index: 3;
-    position: relative;
-    height: 100%;
-    width: 100%;
-    padding: 0px;
-    border-width: 0px;
-    margin: 0px;
-    left: 0px;
-    top: 0px;
-    touch-action: pan-x pan-y;
-  }
-
-  .footer__form-container {
+    flex-direction: row;
+    padding-top: 20px;
+    }
+  .footer__form-container{
     width: 40%;
+    height: 50%;
   }
-}
+  
+
+  }
