@@ -14,7 +14,7 @@
   --title-color: #ffffff;
   --second-title-color: #aa7c5a;
   --link-click-color: #e6b70a;
-  --footer-background-color: #2c221d;
+  --footer-background-color: rgb(38, 29, 23);
   --white-text: #fff;
   --footer-form-text-color: rgb(170, 124, 90, 0.15);
   --footer-form-color: rgb(50, 39, 34, 0);
@@ -165,6 +165,7 @@ img {
   padding-left: 37px;
   padding-right: 37px;
   background-color: rgb(50, 39, 34, 0);
+  color: var(--white-text);
 }
 
 .client-form__message {
@@ -180,6 +181,10 @@ img {
   border-width: 2px;
   transition: 0.3s;
   font-weight: 700;
+}
+.client-form__message:hover{
+  background-color: #04af13;
+
 }
 
 .footer__navigation {
