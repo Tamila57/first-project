@@ -187,6 +187,12 @@ img {
 
 }
 
+.form-status{
+  color: var(--footer-text-color);
+  font-weight: 700;
+  font-family: var(--footer-font-for-h);  
+}
+
 .footer__navigation {
   text-align: center;
   padding-top: 10px;
