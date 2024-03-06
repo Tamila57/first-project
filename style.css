@@ -182,15 +182,14 @@ img {
   transition: 0.3s;
   font-weight: 700;
 }
-.client-form__message:hover{
+.client-form__message:hover {
   background-color: #04af13;
-
 }
 
-.form-status{
+.form-status {
   color: var(--footer-text-color);
   font-weight: 700;
-  font-family: var(--footer-font-for-h);  
+  font-family: var(--footer-font-for-h);
 }
 
 .footer__navigation {

@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="./style.css" />
 <footer class="footer">
-  <hr class="bottom-line">
+  <hr class="bottom-line" />
   <div class="footer__container container">
     <div class="footer__title">
       <h2 class="title__contacts">Contacts</h2>
@@ -8,76 +8,81 @@
         Contact us to book a tour, tasting, or order our beer.
       </p>
     </div>
-    
-  <div class="container-for-info">
-    <div class="footer__address container">
-      <h3 class="address__title">Address</h3>
-      <p class="address__item">6118 Jefferson St, West New York,</p>
-      <p class="address__item">NJ 07093, USA</p>
-    </div>
-    <div class="footer__hours container">
-      <h3 class="hours__title">Hours</h3>
-      <p class="hours__item">Monday - Saturday: 11 AM - 9 PM</p>
-      <p class="hours__item">Sunday: 11 AM - 7 PM</p>
-    </div>
-    <div class="footer__contacts container">
-      <h3 class="contacts__title">Contacts</h3>
-      <ul>
-        <li class="contacts__item">
-          <a href="#" class="footer__number">+1(234)5678900</a>
-        </li>
-        <li class="contacts__item">
-          <a href="#" class="footer__email">craftbrewery@email.com</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="map-and-form">
- <div class="footer__maps container">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.6196875304413!2d-74.02163922445287!3d40.792374432691986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258059d6a3899%3A0x8fbeb5290202611b!2zNjExOCBKZWZmZXJzb24gU3QsIFdlc3QgTmV3IFlvcmssIE5KIDA3MDkzLCDQodCo0JA!5e0!3m2!1sru!2sua!4v1707264055480!5m2!1sru!2sua"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-     class="maps__position"></iframe>
-  </div>
 
-  <div class="footer__form-container container">
-    <form action="https://formspree.io/f/xayrbyyn" method="POST" class="client-form" id="client-form">
-      <input
-        type="text"
-        name="fullname"
-        placeholder="Enter your full name*"
-        required
-        class="client-form__item"
-      />
-      <input
-        type="tel"
-        name="phonenumber"
-        placeholder="Enter your phone number*"
-        required
-        class="client-form__item"
-      />
-      <input
-        type="email"
-        name="email"
-        placeholder="Enter your e-mail*"
-        required
-        class="client-form__item"
-      />
-      <textarea
-        name="message"
-        id="message"
-        maxlength="2000"
-        placeholder="Type your message"
-        class="client-form__item"
-      ></textarea>
-      <button type="submit" class="client-form__message"> Submit </button>
-      <div class="form-status"></div>
-    </form>
+    <div class="container-for-info">
+      <div class="footer__address container">
+        <h3 class="address__title">Address</h3>
+        <p class="address__item">6118 Jefferson St, West New York,</p>
+        <p class="address__item">NJ 07093, USA</p>
+      </div>
+      <div class="footer__hours container">
+        <h3 class="hours__title">Hours</h3>
+        <p class="hours__item">Monday - Saturday: 11 AM - 9 PM</p>
+        <p class="hours__item">Sunday: 11 AM - 7 PM</p>
+      </div>
+      <div class="footer__contacts container">
+        <h3 class="contacts__title">Contacts</h3>
+        <ul>
+          <li class="contacts__item">
+            <a href="#" class="footer__number">+1(234)5678900</a>
+          </li>
+          <li class="contacts__item">
+            <a href="#" class="footer__email">craftbrewery@email.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="map-and-form">
+      <div class="footer__maps container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.6196875304413!2d-74.02163922445287!3d40.792374432691986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258059d6a3899%3A0x8fbeb5290202611b!2zNjExOCBKZWZmZXJzb24gU3QsIFdlc3QgTmV3IFlvcmssIE5KIDA3MDkzLCDQodCo0JA!5e0!3m2!1sru!2sua!4v1707264055480!5m2!1sru!2sua"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="maps__position"
+        ></iframe>
+      </div>
+
+      <div class="footer__form-container container">
+        <form
+          action="https://formspree.io/f/xayrbyyn"
+          method="POST"
+          class="client-form"
+        >
+          <input
+            type="text"
+            name="fullname"
+            placeholder="Enter your full name*"
+            required
+            class="client-form__item"
+          />
+          <input
+            type="tel"
+            name="phonenumber"
+            placeholder="Enter your phone number*"
+            required
+            class="client-form__item"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your e-mail*"
+            required
+            class="client-form__item"
+          />
+          <textarea
+            name="message"
+            id="message"
+            maxlength="2000"
+            placeholder="Type your message"
+            class="client-form__item"
+          ></textarea>
+          <button type="submit" class="client-form__message">Submit</button>
+          <div class="form-status"></div>
+        </form>
+      </div>
+    </div>
   </div>
-</div>
-</div>
   <nav class="footer__navigation container">
     <a href="#"
       ><img src="img/beer-logo.svg" alt="Beer Logo" class="header__logo"
@@ -89,7 +94,7 @@
       <a href="#" class="header__menu-link">Contacts Us</a>
     </div>
   </nav>
-  <hr class="bottom-line">
+  <hr class="bottom-line" />
   <div class="footer__rights container">
     <p class="rights__author">© Created by</p>
     <p class="rights__reserved">All rights Reserved</p>
